@@ -1,0 +1,20 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# Operating system
+.DS_Store
+Thumbs.db
