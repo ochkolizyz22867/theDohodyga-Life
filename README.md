@@ -59,22 +59,7 @@ dotnet build .\theDohodygaLife.csproj --configuration Release
 The executable and other build output are created under `bin\`. Build output is intentionally excluded from version control.
 
 
-## Publish to GitHub
 
-1. Create a new **empty** repository on GitHub. Do not initialize it with a README, license, or `.gitignore`, because those files are already included here.
-2. Extract this archive and open PowerShell in the extracted `theDohodyga-Life` folder.
-3. Initialize the local repository and push the project (replace the URL with your repository URL):
-
-```powershell
-git init
-git add .
-git commit -m "Initial release of theDohodyga Life"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-git push -u origin main
-```
-
-The repository already includes an MIT `LICENSE`, a project README, and a `.gitignore`.
 
 ## How to use the simulator
 
