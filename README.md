@@ -165,13 +165,6 @@ A single `Random` instance is kept by the `Simulation` object and reused for wor
 
 For every new cell, the simulator examines its eight neighbors and chooses the living neighbor with the largest total gene value. Under the standard birth rule, a new cell has exactly three living neighbors, so a parent should be available. The initial genome is retained as a defensive fallback.
 
-## Design and scope
-
-The project intentionally uses only the .NET and Windows Forms APIs. There are no NuGet packages, game engines, databases, or external runtime dependencies.
-
-The interface uses a dark green laboratory theme. The simulation model and the user interface are kept in separate classes so that the rules can be extended without having to rewrite the drawing code.
-
-Possible future extensions include trait-specific mechanics, configurable grid dimensions, saving and loading worlds, and automated tests for the simulation rules. These are not currently implemented.
 
 ## License
 
